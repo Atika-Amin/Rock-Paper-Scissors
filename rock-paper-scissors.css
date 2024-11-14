@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #8d99ae;
+}
+h1{
+    height: 100px;
+    color: #2b2d42;
+    display: flex;
+    justify-content: center;
+    line-height: 5rem;
+}
+img{
+    height: 150px;
+    border-radius: 50%;
+    
+
+}
+.all_choice{
+    display: flex;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choicesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    
+}
+.comp_choice{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    padding-left:250px;
+    align-items: center;
+    gap: 2rem;
+}
+.choices:hover{
+    cursor: pointer;
+    border: #2b2d42 solid;
+    border-radius: 50%;
+}
+.my_choice{
+    height: 300px;
+    display: flex;
+    padding-left: 80px;
+    /* justify-content: center; */
+     align-items: center;
+     gap: 2rem;
+    
+}
+.score_board{
+  display: flex;
+  justify-content: center;
+  gap: 42rem;
+  font-size: 1.5rem;
+  color: #23253b;
+}
+#your_score, #comp_score{
+font-size: 2rem;
+}
+.mssge_container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#mssge{
+    color: #adbcd4;
+    font-size: 1.5rem;
+    height: 100px;
+    background-color: #23253b;
+    border-radius:20% ;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset{
+    height: 50px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#resetbtn{
+    height: 40px;
+    width: 100px;
+    background-color: #23253b;
+    color: aliceblue;
+    border-radius: 10%;
+}
